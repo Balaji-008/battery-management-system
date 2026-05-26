@@ -16,6 +16,12 @@
 | :---: | :---: |
 | ![BMS Close-up](images/bms_close.jpg) | ![LPC2148 Pinout](images/LPC2148_pinout.jpeg) |
 
+### 🔌 Complete System Schematic Diagram
+
+The active system schematic is integrated below. A vector-precision PDF version of this circuit layout is available at: 📄 **[bms_schematic.pdf](bms_schematic.pdf)**
+
+![BMS Circuit Schematic](images/bms_schematic.png)
+
 ---
 
 ## ⚡ Key Features
@@ -114,15 +120,16 @@ The I2C driver is written as a rigid state machine validating bus statuses at ev
   * `debug_adc.c` — Standalone hardware ADC & NTC tap voltage diagnostic tool  
 📂 **`ESP32_Dashboard_V2/`** — Active ESP32 WiFi web cyber-HUD source code (Arduino IDE)  
   * `ESP32_Dashboard_V2.ino` — Core telemetry bridge and dashboard host  
-📂 **`images/`** — High-resolution photos, pin configuration, and live video demo  
+📂 **`images/`** — High-resolution photos, schematic renders, and live video demo  
   * `bms_full.jpg` — Complete hardware system setup  
   * `bms_close.jpg` — Detailed close-up of the LPC2148 hardware board  
   * `bms_lcd.jpg` — Close-up of the 16x2 LCD showing voltage taps in real-time  
   * `dashboard.png` — Real web cyber-HUD telemetry dashboard interface  
   * `bms_demo.mp4` — Asynchronous video demonstration of active load protections  
   * `LPC2148_pinout.jpeg` — Microcontroller pin configuration reference guide  
+  * `bms_schematic.png` — High-definition rendering of the hardware circuit layout  
 📄 **`calibrate_bms.py`** — Interactive software voltage divider calibration tool (Python)  
-📄 **`MCI_v3.pdf`** — Complete hardware system schematic (Main Circuit Diagram)  
+📄 **`bms_schematic.pdf`** — Complete hardware system schematic (Main Circuit Diagram)  
 📄 **`README.md`** — Core project documentation  
 
 ---
@@ -158,5 +165,5 @@ The I2C driver is written as a rigid state machine validating bus statuses at ev
 ## 👤 Author
 
 **Balaji Rayudu S**  
-B.Tech Electronics & Computers Engineering, Semester IV  
+B.Tech Electronics & Computers Engineering  
 Amrita Vishwa Vidyapeetham, Bengaluru
